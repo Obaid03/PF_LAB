@@ -13,7 +13,7 @@ end
 # Take three variables as input and add them without using the + operator
 start\
 input N1,N2,N3\
-add N1,N2,N3\
+sum = N1-(-N2)-(-N3) 
 print sum\
 end
 
