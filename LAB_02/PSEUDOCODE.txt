@@ -1,5 +1,0 @@
-QUESTION 1: Find the maximum number in any of three variables.
-Start
-Input N1,N2,N3
-If N1>N2 and N1>N3
-then print "N1 is Greater
