@@ -12,13 +12,13 @@ int main()
     float principal, rate, time, simpleInterest;
 
     
-    printf("Enter the principal amount (amount must be between 100 to 1,000,000):\n ");
+    printf("Enter the principal amount :\n "); //value of the principle must be between 100Rs. To 1,000,000 Rs.
     scanf("%f", &principal);
 
-    printf("Enter the rate of interest in percentage (must be between 5% to 10%):\n ");
+    printf("Enter the rate of interest in percentage :\n "); //Rate of interest must be between 5% to 10%
     scanf("%f", &rate);
 
-    printf("Enter the time period in years (must be between 1 to 10 years):\n ");
+    printf("Enter the time period in years :\n "); //Time Period must be between 1 to 10 years.
     scanf("%f", &time);
 
     simpleInterest = (principal * rate * time) / 100;
