@@ -10,11 +10,10 @@ int main() {
 
     printf("Enter a string (without spaces): ");
     scanf("%s", arr);
-    // Print the string and calculate its length
     while (*ptr != '\0') {
-        printf("%c", *ptr); // Print the current character pointed to by ptr
-        length++;           // Increment the length
-        ptr++;             // Move to the next character
+        printf("%c", *ptr);
+        length++;           
+        ptr++;             
     }
     
     printf("\n");
