@@ -25,6 +25,6 @@ int main() {
         ptr--;
     }
     printf("%s", n);
-    printf("\nLength of the string: %d\n", length); // Print the length
+    printf("\nLength of the string: %d\n", length);
     return 0;
 }
